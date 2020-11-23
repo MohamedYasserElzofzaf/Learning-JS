@@ -1,6 +1,6 @@
 var coca_cost = 5;
 var burger_cost = 35;
-var 
+var fries_cost = 12 ;
 
 
 
