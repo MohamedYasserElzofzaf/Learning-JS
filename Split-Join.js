@@ -10,5 +10,7 @@ console.log(y);
 
 
 
-// document.getElementById('test').innerHTML;
-// document.write(x);
+ document.getElementById('test').innerHTML;
+ document.write(x);
+ document.write(y);
+
