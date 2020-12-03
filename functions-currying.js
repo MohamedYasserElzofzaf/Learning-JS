@@ -15,4 +15,4 @@ let deutsch = greet(' Tag ');
 
 english('Tom');
 spainish('Sergio');
-deutsch('Van')
+deutsch('Van');
