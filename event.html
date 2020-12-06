@@ -3,9 +3,25 @@
     <head>
         <meta charset="utf-8">
         <title>Event Listeners and bubble</title>
+        <style>
+            main, div , p,span{
+                background-color: gray;
+            }
+            .gold{
+                background-color: gold;
+            }
+        </style>
     </head>
     <body>
-        <p>
+        <main id="m">
+            <div id="d">
+                <p id="p">
+                    <span id="s"></span>
+                </p>
+            </div>
+        </main>
+        <script src="event-bubble.js"></script>
+        <!-- <p>
             <button id ='btn'> Button </button>
         </p>
         <p>
@@ -14,6 +30,6 @@
         <p>
             <input type="text" id="txt" /> 
         </p>
-        <script src="event-listeners.js" ></script>
+        <script src="event-listeners.js" ></script> -->
     </body>
 </html>
