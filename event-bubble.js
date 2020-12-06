@@ -10,6 +10,7 @@ let log = console.log;
 let highlight = (ev)=>{
     let target = ev.currentTarget;
     target.className = 'gold';
+
     reset();
 }
 let reset = (_element)=>{
@@ -23,4 +24,5 @@ d.addEventListener('click' , (ev)=>{
 })
 [m , d ,p,s].forEach((element) => {
     element.addEventListener('click' , highlight);
+    ev.stopImmediatePropagation();
 });
