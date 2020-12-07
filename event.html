@@ -3,24 +3,32 @@
     <head>
         <meta charset="utf-8">
         <title>Event Listeners and bubble</title>
+        <script src="event-keyboard.js"></script>
         <style>
-            main, div , p,span{
-                background-color: gray;
+            p{
+                outline: 1px solid #333333;
+                margin: 2rem;
             }
-            .gold{
-                background-color: gold;
+            input{
+                margin: 2rem;
+            }
+            input :focus{
+                background: gold;
             }
         </style>
     </head>
     <body>
-        <main id="m">
+        <p>
+            <input type="text" id="txt"/>
+        </p>
+        <!-- <main id="m">
             <div id="d">
                 <p id="p">
                     <span id="s"></span>
                 </p>
             </div>
         </main>
-        <script src="event-bubble.js"></script>
+        <script src="event-bubble.js"></script> -->
         <!-- <p>
             <button id ='btn'> Button </button>
         </p>
