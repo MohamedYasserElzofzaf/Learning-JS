@@ -10,4 +10,5 @@ let num = 1000 * 60 * 60 * 24 * 365.25 * 40;
 // approx 40 yrs
 // ms * sec * min * hr * day * year * x
 let str = "20 July 2012";
-let d1 = new Date(1220000000);
+let d1 = new Date(15000000000);
+log(d1);
