@@ -17,3 +17,5 @@ let d3 = new Date(str);
 log(d3);
 let d4 = new Date(1994, 12, 12);
 log(d4);
+d.setFullYear(2020);
+log(d);
