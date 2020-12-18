@@ -12,3 +12,5 @@ let num = 1000 * 60 * 60 * 24 * 365.25 * 40;
 let str = "20 July 2012";
 let d1 = new Date(15000000000);
 log(d1);
+let d2 = new Date(num);
+log(d2);
