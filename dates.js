@@ -15,3 +15,5 @@ let d2 = new Date(num);
 log(d2);
 let d3 = new Date(str);
 log(d3);
+let d4 = new Date(1994, 12, 12);
+log(d4);
