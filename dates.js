@@ -2,7 +2,6 @@
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 let log = console.log;
-
 let d = new Date();
 log(d);
 
@@ -14,3 +13,5 @@ let d1 = new Date(15000000000);
 log(d1);
 let d2 = new Date(num);
 log(d2);
+let d3 = new Date(str);
+log(d3);
