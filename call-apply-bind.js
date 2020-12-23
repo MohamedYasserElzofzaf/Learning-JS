@@ -19,3 +19,10 @@ let bill = {
 
 let fred = bob.bind(bill, 5, "hasta la vista");
 fred("x");
+
+//bob(1, 'hello');
+//bill.myMethod(bob);
+//bob.call(bill, 2, 'goodbye');
+//let arr = [3, 'hi'];
+//bob.apply(bill, arr);
+//bill.myMethod(bob, 4, 'ciao');
