@@ -42,7 +42,18 @@ Object.defineProperty(obj, "test", {
     configurable: true,
     enumerable: false,
 });
+Object.defineProperty(obj, "frank", {
+    configurable: true,
+    enumerable: true,
+    get: () => this.value,
+    set: (_val) => {
+        this.value = _val + " baby!";
+    },
+});
+
 for (let prop in obj) {
     log(prop);
 }
-log(obj, obj.test);
+log(obj, obj.test, obj.frank);
+obj.frank = "Shagadelic";
+log(obj.frank);
